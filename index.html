@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            width: 181px;
+            height: 181px;
+            border-radius: 78px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        ul {
+            font-size: 22px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        @keyframes animate{
+             0%{
+                background-color: rgb(170, 210, 39);
+             }
+
+             25%{
+                background-color: rgb(73, 177, 17);
+             }
+
+             50%{
+                background-color: rgb(50, 210, 39);
+             }
+
+             100%{
+                background-color: rgb(18, 193, 103);
+             }
+        }
+
+        #dl {
+            height: 30px;
+            width: 30px;
+           
+
+            background-color: rgb(55, 255, 0);
+            animation-name: animate;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+
+        }
+
+        ol li {
+            font-size: 27px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><img src="Profile_photo.jpg" alt="Error"></div>
+
+    <h1><i>Rahul Kumar Singh</i></h1>
+
+    <hr>
+    <p>I am currently Study in the <strong>National Institute of the Technology Jamshedpur</strong> . My current
+        C.G.P.A. is 8.444 . I complete my Intermidiate education from the <strong> Buddha Inter college
+            Kushinagar</strong> . I scored 85 percentage in the Intermidiate . My Distric Rank is 6th in the
+        Intermidiate . I complete My High School education From the <strong>Navtappi Inter College Rampur Garh </strong>
+        I scored 84 percentage in the High School </p>
+    <hr>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading the Bhagwat Gita</li>
+        <ul type="circle">
+            <li>I also Interested in the Krishna Bakti .</li>
+        </ul>
+        <li>Solving the mathematics Equation</li>
+        <ul type="circle">
+            <li>Main Interested Domain in the mathematics Calculus , Cordianate Geometry </li>
+        </ul>
+
+        <li>Teaching </li>
+        <ul>
+            <li>Specially helping the poor student who does not effort the costly coaching .</li>
+        </ul>
+    </ul>
+
+    <h2>Important Download Link</h2>
+
+    <ol>
+        <li>Jee Main Result <a href="Jee Main Result.jpeg" download>
+                <img id="dl" src="image.jpg.svg" alt=""></a></p>
+        </li>
+
+        <li>Intermidiate Result <a href="Intermidiate_result.jpeg" download>
+                <img id="dl" src="image.jpg.svg" alt=""></a></p>
+        </li>
+
+        <li>High School Result <a href="High School Result.jpeg" download>
+                <img id="dl" src="image.jpg.svg" alt=""></a></p>
+        </li>
+
+        <li> Important Image <a href="#" download>
+                <img id="dl" src="image.jpg.svg" alt=""></a></p>
+        </li>
+    </ol>
+
+
+</body>
+
+</html>
